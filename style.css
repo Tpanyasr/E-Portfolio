@@ -301,7 +301,7 @@ nav {
 /* PROJECTS */
 
 .project {
-  margin-bottom: 135px;
+  margin-bottom: 100px;
   width: 30%;
   
 }
@@ -309,9 +309,9 @@ nav {
 
 
 .project__img {
-  width:100%;
-  height: auto;
-  object-fit: cover;
+  max-width:100%;
+  max-height: 80%;
+  object-fit: contain;
   transition: all 500ms ease;
 
 }
